@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/ii">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/cb"
+        android:id="@+id/pikT"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_below="@+id/pikT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="To Do"
+            android:gravity="center"
+            android:textSize="50sp"
+            android:textColor="#E9C4C3"/>
+    </RelativeLayout>
+
+
+</LinearLayout>
